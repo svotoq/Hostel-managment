@@ -1,0 +1,16 @@
+{
+    "name": "hostel",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.16.0",
+        "mongoose": "^5.9.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
