@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbUri = require("./default.json").mongoURI;
+const dbUri = require("config").get('mongoURI');
 
 const connectDb = async () => {
     try {
