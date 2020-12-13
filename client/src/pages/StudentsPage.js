@@ -1,9 +1,11 @@
 import React from 'react'
+import { SearchStudents } from '../components/Students/SearchStudents';
 
-export const StudentsPage = () =>{
+export const StudentsPage = () => {
     return (
         <div>
-            <h1>Students Page</h1>
+            <SearchStudents />
+
         </div>
     )
 };

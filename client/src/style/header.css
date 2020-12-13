@@ -1,3 +1,14 @@
-.header-padding {
+.header {
+    background-color: #477A9D !important;
     padding: 0 2rem;
+}
+
+.nav-back {
+    margin-right: 5px;
+    padding-left: 8px; 
+}
+.nav-back i {
+    height: 20px !important;
+    line-height: 20px !important;
+    color: white;
 }

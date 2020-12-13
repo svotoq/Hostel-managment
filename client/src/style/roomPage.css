@@ -1,0 +1,75 @@
+.header-container {
+    background-color: #DBE8F2;
+    width: 100%;
+    height: 200px;
+    padding: 40px 40px;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.label-value-container {
+    margin-right: 80px;
+}
+
+.label-value {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 16px;
+}
+
+.label {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.value {
+    font-style: italic;
+}
+
+.indicator.indicator-default {
+    right: 0;
+    left: 0;
+    background-color: #6085a359;
+    height: 4px;
+    width: 100%;
+}
+
+.footer-button {
+    height: 28px;
+    line-height: 28px;
+    background-color: #477A9D;
+    margin-left: 15px;
+    margin-right: 0;
+}
+.footer-buttons {
+    margin-left: auto;
+    margin-right: 20px;
+}
+.cancel-button {
+    background-color: transparent;
+    color: #E6F1F8;
+}
+.btn-flat.cancel-button[disabled] {
+    color: #00000045 !important;
+}
+.room-content {
+    height: 450px;
+    background-color: #E6F1F8;
+    overflow: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.room-content {
+    padding: 30px 60px;
+}
+
+.footer-add-button {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+

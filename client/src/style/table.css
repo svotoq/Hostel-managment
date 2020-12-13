@@ -1,0 +1,30 @@
+.table-container {
+    background-color: #E6F1F8;
+    min-height: 100vh;
+    padding: 30px 60px;
+}
+
+.table tbody tr td {
+    padding-left: 10px;
+}
+
+.table thead tr th {
+    text-align: center;
+}
+
+.table tbody tr td {
+    text-align: center;
+    font-weight: 600;
+}
+
+.create-room {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.button-download {
+    margin-bottom: 5px;
+    height: 28px;
+    line-height: 28px;
+    color: #039be5;
+}

@@ -1,0 +1,35 @@
+.tiles-container {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+}
+.tile {
+    width: 200px;
+    height: 200px;
+    background-color: #E6F1F8;
+    box-shadow: 0 0 5px #bbbbbb;
+    margin-right: 50px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tile-title {
+    font-size: large;
+    font-weight: 600;
+    margin: 10px;
+    color: #000000;
+}
+
+.tile-icon {
+    align-self: flex-end;
+    margin: 10px;
+    padding: 0;
+}
+
+.tile-icon .material-icons {
+    display: block;
+    color: #A8B0B5;
+}

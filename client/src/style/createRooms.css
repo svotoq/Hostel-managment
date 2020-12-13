@@ -1,0 +1,61 @@
+.tabs-style {
+    background-color: #EBF3F8;
+}
+
+.tabs-style .tab a{
+    color: black;
+}
+
+.tabs-style .tab a.active {
+    color: #477A9D;
+}
+.tabs-style .tab a:focus.active {
+    background-color: #dbe8f27e;
+}
+.tabs-style .tab {
+    color: #477A9D;
+}
+.tabs-style .tab a:hover {
+    color: #477A9D;
+}
+.tabs-style .indicator {
+    background-color: #477A9D;
+    height: 4px;
+}
+
+.tab-container {
+    height: 610px;
+    background-color: #E6F1F8;
+    padding: 30px;
+}
+.row .col.tab-col{
+    padding: 0 !important;
+}
+.indicator.indicator-default {
+    right: 0;
+    left: 0;
+    background-color: #b5babe59;
+    height: 4px;
+}
+
+.footer-save {
+    position: absolute;
+    bottom: 0;
+    width: 1075px;
+    height: 50px;
+    background-color: #A8B0B5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #bbbbbb;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-create-button {
+    margin-right: 10px;  
+}
+.save-red-button {
+    height: 28px;
+    line-height: 28px;
+    background-color: #d50000 ;
+}

@@ -1,5 +1,6 @@
 {
     "mongoURI": "mongodb+srv://isvoq:Password1@cluster0.2vkra.mongodb.net/Hostel?retryWrites=true&w=majority",
     "port": 4000,
-    "jwtSecret": "mySecret"
+    "jwtSecret": "mySecret",
+    "baseUrl": "http://localhost:5000"
 }
