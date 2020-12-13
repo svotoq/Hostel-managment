@@ -4,13 +4,13 @@ Course project
 PostgresSQL + nodeJs + express + react(a kind of...)
 
 ## Install
-Go to the main folder where the server.js file is located and write npm install to the console  
-Go to the client folder and do the same
+Go to the main folder where the __server.js__ file is located and write __npm install__ to the console  
+Go to the __client__ folder and do the same
 
 ## Database
-Config folder contains database.sql file with queries to create tables  
-PgDb.js file contains PostgresSQL connection parameters
+__Config__ folder contains __database.sql__ file with queries to create tables  
+__PgDb.js__ file contains PostgresSQL connection parameters
 
 ## Run
-npm run dev to run the project
+__npm run dev__ to run the project
 
